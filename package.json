@@ -1,0 +1,16 @@
+{
+  "name": "node-nginx",
+  "version": "0.1.0",
+  "description": "Docker-Node.js-Nginx 샘플 어플리케이션",
+  "main": "index.js",
+  "scripts": {
+    "npm start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Seokjun Kim <colus001@me.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "uuid": "^2.0.2"
+  }
+}
